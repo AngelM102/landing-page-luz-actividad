@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universidad del Zulia - Núcleo Punto Fijo</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css"
+        integrity="sha512-dPXYcDub/aeb08c63jRq/k6GaKccl256JQy/AnOq7CAnEZ9FzSL9wSbcZkMp4R26vBsMLFYH4kQ67/bbV8XaCQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body class="fadeIn">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand bg-white border px-4 rounded" href="#inicio">
+                <img src="./imgs/universidad_del_zulia_logo.jpg" alt="" height="50">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link fw-bold active" href="#inicio">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link fw-bold" href="#carreras">Carreras</a></li>
+                    <li class="nav-item"><a class="nav-link fw-bold" href="#noticias">Noticias</a></li>
+                    <li class="nav-item"><a class="nav-link fw-bold" href="#periodico">Periódico</a></li>
+                    <li class="nav-item"><a class="nav-link fw-bold" href="#contacto">Contáctanos</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="inicio" class="section" style="min-height: 100vh;">
+        <div class="container text-center">
+            <h1>Universidad del Zulia Núcleo Punto Fijo</h1>
+            <p class="lead">Post nubila Phoebus</p>
+        </div>
+    </section>
+
+    <section id="carreras" class="section">
+        <div class="container">
+            <h2 class="text-center mb-5">Nuestras Carreras</h2>
+            <div class="row g-4 d-flex justify-content-center">
+                <div class="col-md-6 col-lg-3">
+                    <div class="carrera shadow-sm">
+                        <i class="bi bi-bank"></i>
+                        <h3>Administración</h3>
+                        <p>Forma profesionales que lideren organizaciones y empresas.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="carrera shadow-sm">
+                        <i class="bi bi-calculator"></i>
+                        <h3>Contaduría</h3>
+                        <p>Profesionales que se encargan de la gestión financiera y contable.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="carrera shadow-sm">
+                        <i class="bi bi-laptop"></i>
+                        <h3>Computación</h3>
+                        <p>Programadores y desarrolladores de software. El futuro es digital.</p>
+                    </div>
+                </div>
+                <!-- Turismo -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="carrera shadow-sm">
+                        <i class="bi bi-geo-alt"></i>
+                        <h3>Turismo</h3>
+                        <p>Profesionales en turismo y hotelería. Conoce el mundo</p>
+                    </div>
+                </div>
+                <!-- educacion -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="carrera shadow-sm">
+                        <i class="bi bi-pencil"></i>
+                        <h3>Educación</h3>
+                        <p>Profesionales en educación. Formando el futuro de la nación.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="noticias" class="section">
+        <div class="container">
+            <h2 class="text-center mb-5 text-white">Últimas Noticias</h2>
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="noticia">
+                        <h3>Reapertura del núcleo</h3>
+                        <p>Inauguración del nuevo campus de tecnología prevista para 2024.</p>
+                        <a href="proximamente.html" class="btn btn-secondary">Leer más</a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="noticia">
+                        <h3>Convenio Internacional</h3>
+                        <p>Firma de convenio con universidades europeas para intercambio estudiantil.</p>
+                        <a href="proximamente.html" class="btn btn-secondary">Leer más</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="periodico" class="section">
+        <div class="container">
+            <h2 class="text-center mb-5">Periódico LUZ</h2>
+            <embed src="http://www.luz.edu.ve/images/LUZ-Periodico/2019/pdf/778.pdf" type="application/pdf" width="100%"
+                height="900">
+        </div>
+    </section>
+
+    <section id="contacto" class="section">
+        <div class="container">
+            <h2 class="text-center mb-5 text-white">Contáctanos</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <form id="contactForm">
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Nombre" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" placeholder="Email" required>
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" placeholder="Mensaje" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-secondary w-100">Enviar</button>
+                    </form>
+                </div>
+                <div class="col-md-4">
+                    <div class="info-contacto">
+                        <p><i class="bi bi-geo-alt" style="font-size: 1rem;"></i> Punto Fijo, Edo - Falcón, Venezuela</p></p>
+                        <p><i class="bi bi-telephone" style="font-size: 1rem;"></i> +58 0269 2500024</p>
+                        <p><strong>@nucleoluzpf</strong> en todas las redes sociales</i>
+                    </div>
+                </div>
+
+
+                <!-- Subscribete a nuestro newsletter -->
+                <div class="col-md-6 mt-5 p-5" style="border-top: 1px solid white;">
+                    <h2 class="text-center text-white mb-5">Subscribete a nuestro newsletter</h2>
+                    <form id="subscribeForm">
+                        <div class="mb-3">
+                            <input type="email" class="form-control" placeholder="Email" required>
+                        </div>
+                        <button type="submit" class="btn btn-secondary w-100">Subscribirme</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-3">
+        <div class="container text-center">
+            <p class="m-0">&copy; 2024 Universidad del Zulia - Núcleo Punto Fijo.. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- jQuery and Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js" integrity="sha512-AA1Bzp5Q0K1KanKKmvN/4d3IRKVlv9PYgwFPvm32nPO6QS8yH1HO7LbgB1pgiOxPtfeg5zEn2ba64MUcqJx6CA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
