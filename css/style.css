@@ -6,7 +6,7 @@ body {
 
 /* Navbar */
 .navbar {
-    background-color: #003366;
+    background-color: #056CAD;
 }
 
 /* Secciones */
@@ -71,7 +71,7 @@ body {
 
 /* Footer */
 footer {
-    background-color: #003366;
+    background-color: #056CAD;
     color: white;
     position: fixed;
     bottom: 0;
@@ -80,13 +80,13 @@ footer {
 
 /* Títulos de sección */
 h2 {
-    color: #003366;
+    color: #056CAD;
 }
 
 /* Botones personalizados */
 .btn-primary {
-    background-color: #003366;
-    border-color: #003366;
+    background-color: #056CAD;
+    border-color: #056CAD;
 }
 
 .btn-primary:hover {
@@ -105,24 +105,24 @@ h2 {
 
 /* Colores de secciones */
 #noticias {
-    background-color: #003366;
+    background-color: #056CAD;
 }
 
 #contacto {
-    background-color: #003366;
+    background-color: #056CAD;
 }
 
 
 /* iconos styles*/
 i.bi{
     font-size: 2rem;
-    color: #003366;
+    color: #056CAD;
 }
 
 
 /* enlaces */
 a{
-    color: #003366;
+    color: #056CAD;
     text-decoration: none;
 }
 
