@@ -21,7 +21,7 @@ El proyecto está organizado de la siguiente manera:
 ## Funcionalidades
 
 - **Navegación**: Menú de navegación para acceder a diferentes secciones de la página.
-- **Formulario de Contacto**: Formulario para que los usuarios puedan enviar mensajes.
+- **Formulario de Contacto**: Formulario para que los usuarios puedan enviar mensajes (simplemente demostrativo para la actividad).
 - **Animaciones**: Efectos y animaciones para mejorar la experiencia del usuario.
 
 ## Cómo Ejecutar el Proyecto
@@ -45,3 +45,4 @@ Las contribuciones son bienvenidas. Si deseas contribuir, por favor sigue los si
 Angel Morillo
 Licenciatura en computación
 Materia: `Lenguajes Comparados`
+
