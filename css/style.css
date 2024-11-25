@@ -103,22 +103,24 @@ h2 {
 }
 
 
-
+/* Colores de secciones */
 #noticias {
     background-color: #003366;
 }
-
 
 #contacto {
     background-color: #003366;
 }
 
+
+/* iconos styles*/
 i.bi{
     font-size: 2rem;
     color: #003366;
 }
 
 
+/* enlaces */
 a{
     color: #003366;
     text-decoration: none;
@@ -129,9 +131,6 @@ a{
     animation-name: fadeIn;
     animation-duration: 1s;
 }
-
-
-
 
 
 /* animate */
