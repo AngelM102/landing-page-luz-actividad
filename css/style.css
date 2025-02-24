@@ -17,8 +17,7 @@ body {
 
 /* Inicio */
 #inicio {
-    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), 
-                url('https://upload.wikimedia.org/wikipedia/commons/3/3e/LUZ_puntofijo_comedor.JPG');
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../imgs/LUZ_puntofijo_comedor.webp') no-repeat center center/cover;
     background-size: cover;
     background-position: center;
     color: white;
